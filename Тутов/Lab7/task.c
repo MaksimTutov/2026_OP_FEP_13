@@ -108,11 +108,11 @@ double bisection_method(double N, double A, double a, double b, double eps) {
 
 int main() {
     // Вхідні дані
-    double N = 12;      // Порядковий номер у журналі
-    double A = 17;      // Вік (повних років)
+    double N = 12;      
+    double A = 17;     
     
-    double a = -100.0;  // Ліва межа інтервалу
-    double b = 100.0;   // Права межа інтервалу
+    double a = -100.0;  
+    double b = 100.0;   
     double eps = 1e-6;  // Точність обчислень (10^-6)
 
     printf("Розв'язання рівняння %.0f*x + %.0f = 0 методом половинного ділення\n", N, A);
