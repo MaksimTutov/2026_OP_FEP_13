@@ -47,7 +47,7 @@ int recursive_sum(int current, int target) {
 }
 
 int main() {
-    int N = 12; // Ваш порядковий номер у журналі (змініть за необхідності)
+    int N = 12; 
     int target = 100;
 
     // Перевірка на коректність діапазону
